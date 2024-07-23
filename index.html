@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+    <title>Entrar e Cadastrar</title>
+</head>
+<body>
+    <main id="container">
+        <div id="left">
+            <h1 id="title">sing up</h1>
+            <section id="input-area">
+                <div class="input-style">
+                    <input id="username" class="input" type="text" placeholder="username">
+                    <span class="icon"><img src="/src/assets/4092564-about-mobile-ui-profile-ui-user-website_114033.svg" alt=""></span>
+                </div>
+                <div class="input-style">
+                    <input id="password" class="input" type="password" placeholder="password">
+                    <span class="icon"><img src="src/assets/4105941-lock-login-password-security-sign-in-sign-out_113932.svg" alt=""></span>
+                </div>
+                <div class="input-style">
+                    <input id="email" class="input" type="email" placeholder="email">
+                    <span class="icon"><img src="src/assets/4105936-email-envelope-mail-message-snail-mail_113938 (1).svg" alt=""></span>
+                </div>
+            </section>
+            <section id="check-box">
+                <input type="checkbox" name="term" id="term" checked>
+                <p id="term-txt">li e concordo com os termos!</p>
+            </section>
+            <button id="btn">finish</button>
+        </div>
+        <div id="right">
+            <div id="user-infor">
+                <?xml version="1.0" ?><svg width="12px"  viewBox="0 0 32 32" class="view-profile" xmlns="http://www.w3.org/2000/svg"><title/><g id="about"><path d="M16,16A7,7,0,1,0,9,9,7,7,0,0,0,16,16ZM16,4a5,5,0,1,1-5,5A5,5,0,0,1,16,4Z"/><path d="M17,18H15A11,11,0,0,0,4,29a1,1,0,0,0,1,1H27a1,1,0,0,0,1-1A11,11,0,0,0,17,18ZM6.06,28A9,9,0,0,1,15,20h2a9,9,0,0,1,8.94,8Z"/></g></svg>
+                <h1 id="username-txt">User Name</h1>
+                <p id="welcome">bem vindo</p>
+                <button id="btn-keep-in">view profile</button>
+            </div>
+        </div>
+    </main>
+    <script src="/dist/bundle.js"></script>
+</body>
+</html>
